@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E9A6"
+    tools:context=".BreadStep1_1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:text="作法"
+        android:textAlignment="center"
+        android:textColor="#336666"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#7FCB27"
+        android:text="材料"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="358dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(5)\n將麵團分別桿長後捲起，靜置10分鐘。\n時間到後，再次將麵團桿長後 輕輕 捲起，把收口處捏緊。\n麵團注意不要捲太緊，這樣第二次發酵會等比較久。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/button0"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="358dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(6)\n吐司模如果會沾黏的話，記得鋪上烘焙紙再將麵團放入。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="358dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(7)\n於室溫發酵至麵團達到9分滿，蓋上蓋子，放入預熱至180度C的烤箱中烘烤35分鐘。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="358dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(8)\n出爐後，將吐司模重敲2下，將熱氣震出。再將吐司移出烤模於網架上放涼。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <Button
+        android:id="@+id/buttonTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#7FCB27"
+        android:text="計時器"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#7FCB27"
+        android:text="下一頁"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

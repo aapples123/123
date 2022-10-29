@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E9A6"
+    tools:context=".BreadStep1_1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:text="作法"
+        android:textAlignment="center"
+        android:textColor="#336666"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#7FCB27"
+        android:text="材料"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="358dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(1)
+       \n將 材料A 於盆中攪拌均勻，靜置30分鐘。\n這個步驟叫做自我分解，能加速麵團薄膜的形成。這樣可以省一點力氣摔打搓揉麵團。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/button0"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="358dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(2)\n時間到後，加入 材料B 。\n最後，將混合好的材料C加入，將麵團摔打搓揉約5分鐘至薄膜形成。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="358dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(3)\n將麵團放置於保鮮盒中，發酵至雙倍大 (約1小時)。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="358dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(4)\n麵團發酵好後，將空氣壓出。麵團分成3等分，中間發酵15分鐘。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <Button
+        android:id="@+id/buttonTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#7FCB27"
+        android:text="計時器"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#7FCB27"
+        android:text="下一頁"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

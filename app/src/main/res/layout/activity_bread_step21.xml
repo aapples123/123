@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E9A6"
+    tools:context=".BreadStep2_1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        android:text="作法"
+        android:textAlignment="center"
+        android:textColor="#336666"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#7FCB27"
+        android:text="材料"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="358dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(1)\n南瓜削皮去籽切塊，放入電鍋蒸至熟軟後壓成泥狀放涼備用。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/button0"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="358dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(2)\n將 剩下的材料 與 南瓜泥 倒入鋼盆搓揉成光滑柔軟不黏手的麵糰，覆上保鮮膜至於溫暖處發酵膨漲約1倍大。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="358dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFF8D7"
+        android:text="(3)\n將發酵好的麵糰放入塑膠袋中綁緊，置入冰箱冷藏低溫發酵12小時。"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <Button
+        android:id="@+id/buttonTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#7FCB27"
+        android:text="計時器"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#7FCB27"
+        android:text="下一頁"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
